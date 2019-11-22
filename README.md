@@ -7,7 +7,7 @@ This function has two modes.
 - all  
 Returns all prime factors of given long long values.
 ```cpp
-vector<long long> out = pri_fac(30000LL, all);
+vector<long long> out = pri_fac(30000LL, "all");
 
 for(int i=0;i<out.size();i++) cout << out[i] << endl;
 
@@ -19,12 +19,14 @@ for(int i=0;i<out.size();i++) cout << out[i] << endl;
 3
 5
 5
+5
+5
 ```
 
 - unique  
 Returns unique prime factors of given long long  values.
 ```cpp
-vector<long long> out = pri_fac(30000LL, unique);
+vector<long long> out = pri_fac(30000LL, "unique");
 
 for(int i=0;i<out.size();i++) cout << out[i] << endl;
 
@@ -33,5 +35,3 @@ for(int i=0;i<out.size();i++) cout << out[i] << endl;
 3
 5
 ```
-
-

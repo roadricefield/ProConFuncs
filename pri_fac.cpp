@@ -32,20 +32,20 @@ vector<long long> pri_fac(long long N, string mode){
                     a++;
                 }
             } 
-        if(N != now & N != 1) yakusu.push_back(N);
+        if(N != 1) yakusu.push_back(N);
         return yakusu;
     }
 }
 
 int main(){
-    long long a;
-    string S;
-    cin >> a;
-    cin >> S;
+    long long N;
+    string mode;
+    cin >> N;
+    cin >> mode;
 
     vector<long long> test;
 
-    test = pri_fac(a,S);
+    test = pri_fac(N,mode);
 
     for(int i=0;i<test.size();i++){
         cout << test[i] << endl;
