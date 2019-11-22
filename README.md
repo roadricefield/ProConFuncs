@@ -1,8 +1,8 @@
 # Functions for programing contest
 
 ## pri_fac(*long long*, *string*)  
-This fanction performs prime factorization. The calculation cost is O(sqrt(*N*)).  
-This fanction has two modes.
+This function performs prime factorization. The calculation cost is O(sqrt(*N*)).  
+This function has two modes.
 
 - all  
 Returns all prime factors of given long long values.
