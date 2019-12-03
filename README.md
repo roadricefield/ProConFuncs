@@ -46,7 +46,7 @@ S = "Python3"
 S[2] = "T"
 ```
 
-So I made the very very simple function, str_rep() which replace a character in a string.
+So I made the very very simple function, str_rep() which replaces a character in a string.
 
 ```python
 S = "Python3"
