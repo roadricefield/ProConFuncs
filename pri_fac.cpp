@@ -26,7 +26,6 @@ vector<long long> pri_fac(long long N, string mode){
             while(N >= a*a){
                 if(N%a == 0){
                     yakusu.push_back(a);
-                    now = a;
                     N /= a;
                 }else{
                     a++;
